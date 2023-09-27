@@ -1,4 +1,56 @@
+:root{
+    --main-color: darkred;
+    --second-color: #ececec;
+}
+.f-p{
+    font-family: 'Nova Square', cursive;
+}
+.f-s{
+    font-family: 'Rajdhani', sans-serif;
+}
+.fc-p{
+    color: var(--main-color);
+
+}
+
+
 .imgcostum{
     width: 70px;
     height: 70px;
+}
+.nav-link{
+    font-size:x-small;
+}
+.nav-item{
+    padding: 0px 40px 0px 40px;
+}
+.headercostum{
+    margin-top: 117px;
+}
+.imgcustom{
+    background: url("./Red/media/mountains2.png"), linear-gradient(360deg, rgba(136, 61, 61, 0) 0%, rgb(242, 249, 250) 100%), url('./Red/media/switzerland-862870_1920.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+
+}
+.pvirgolette::after{
+    content:'"' ;
+    color: var(--main-color);
+    font-size: 80px;
+    position: absolute;
+    bottom: -60px;
+
+}
+.pvirgolette::before{
+    content:'"' ;
+    color: var(--main-color);
+    font-size: 80px;
+    position: absolute;
+    top: -50px;
+    left: -20px;
+}
+.bgcolor{
+    background-color: var(--second-color);
 }
